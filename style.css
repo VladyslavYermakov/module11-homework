@@ -1,0 +1,16 @@
+.startBtn {
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.timeAnimation{
+    animation: pulse 0.5s infinite;
+    color: red;
+}
+
+@keyframes pulse{
+    0%{font-size: 16px;}
+    50%{font-size: 30px;}
+    100%{font-size: 16px;}
+}
